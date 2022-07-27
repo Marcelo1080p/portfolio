@@ -1,0 +1,166 @@
+main {
+    min-height: 77vh;
+    background: linear-gradient(60deg, #0f0c29, #302b63, #24243e);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+.tecTitulo h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    color: azure;
+    border-bottom: 1px solid #0f344388;  
+}
+
+.tecs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+    gap: 5rem;
+    width: 65%;
+}
+
+.html, .css, .js, .bootstrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    color: #ffff;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 300;
+    transition: 1s;
+}
+
+.html:hover, .css:hover, .js:hover, .bootstrap:hover {
+    transform: scale(1.1);
+}
+
+.html {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(255, 68, 0, 0.301),
+                0 0 5px rgba(255, 68, 0, 0.295),
+                0 0 10px rgba(255, 68, 0, 0.295),
+                0 0 20px rgba(255, 68, 0, 0.459),
+                0 0 80px rgba(255, 68, 0, 0.315);
+}
+
+.html p {
+    z-index: 100;
+}
+
+.html::before {
+    content: "";
+    position: absolute;
+    height: 120%;
+    width: 50px;
+    background-color: orangered;
+    animation: animeRotate 3s infinite linear;
+}
+
+.html::after {
+    content: "";
+    position: absolute;
+    background: linear-gradient(30deg, #0f0c29, #302b63, #24243e);
+    border-radius: 50%;
+    inset: 3px;
+}
+
+.css {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 5px #00c1cb71,
+                0 0 5px  #00c1cb5b,
+                0 0 10px #00c1cb60,
+                0 0 20px  #00c1cb41,
+                0 0 80px  #00c1cb49;
+}
+
+.css p {
+    z-index: 100;
+}
+
+.css::before {
+    content: "";
+    position: absolute;
+    height: 120%;
+    width: 50px;
+    background-color: #00C2CB;
+    animation: animeRotate 3s infinite linear;
+}
+
+.css::after {
+    content: "";
+    position: absolute;
+    background: linear-gradient(30deg, #0f0c29, #302b63, #24243e);
+    border-radius: 50%;
+    inset: 3px;    
+}
+
+.js {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 5px  rgba(255, 255, 0, 0.363),
+                0 0 5px  rgba(255, 255, 0, 0.336),
+                0 0 10px rgba(255, 255, 0, 0.329),
+                0 0 20px rgba(255, 255, 0, 0.329),
+                0 0 80px rgba(255, 255, 0, 0.308);
+}
+
+.js p {
+    z-index: 100;
+}
+
+.js::before {
+    content: "";
+    position: absolute;
+    height: 120%;
+    width: 50px;
+    background-color: yellow;
+    animation: animeRotate 3s infinite linear;
+}
+
+.js::after {
+    content: "";
+    position: absolute;
+    background: linear-gradient(30deg, #0f0c29, #302b63, #24243e);
+    border-radius: 50%;
+    inset: 3px;    
+}
+
+.bootstrap {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 5px  #7310f560,
+                0 0 5px  #7310f560,
+                0 0 10px #7310f560,
+                0 0 20px #7310f560,
+                0 0 80px #7310f560;
+}
+
+.bootstrap p {
+    z-index: 100;
+}
+
+.bootstrap::before {
+    content: "";
+    position: absolute;
+    height: 120%;
+    width: 50px;
+    background-color: #7210f5;
+    animation: animeRotate 3s infinite linear;
+}
+
+.bootstrap::after {
+    content: "";
+    position: absolute;
+    background: linear-gradient(30deg, #0f0c29, #302b63, #24243e);
+    border-radius: 50%;
+    inset: 3px;    
+}

@@ -1,0 +1,30 @@
+.sobre {
+    min-height: 77vh;
+    background: linear-gradient(60deg, #0f0c29, #302b63, #24243e);
+    text-align: center;
+    border-bottom: 1px solid aqua;
+    padding-top: 5rem;
+    
+}
+
+.sobre h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    margin-top: 4rem;
+}
+
+.sobre p {
+    margin-top: 5rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: rgb(179, 177, 177);
+    
+}
+
+@media (max-width: 550px) {
+    .sobre p {
+        padding: 1rem;
+    }
+}

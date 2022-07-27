@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;800&display=swap');
+
+* {
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.projetos {
+    min-height: 77vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background: linear-gradient(60deg, #0f0c29, #302b63, #24243e);
+    border-bottom: 1px solid aqua;
+    overflow: hidden;
+}
+
+.projetos h1 {
+    margin-top: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    color: white;
+}
+
+.listProjetos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+    padding: 3rem;
+}
+
+.listProjetos img {
+    width: 450px;
+    height: 250px;
+    border-radius: 8px;
+    margin-top: 2rem;
+    transition: all .5s;
+}
+
+.listProjetos img:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(0, 255, 255, 0.185) 0px 20px 30px -10px;
+}
+
+.proj {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.proj h3 {
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+}
+
+@media (max-width: 535px) {
+    .listProjetos img {
+        width: 350px;
+        height: 200px;
+        padding: 1rem;
+        border-radius: 8px;
+    }
+    
+}
